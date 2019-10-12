@@ -2,9 +2,10 @@
   "name": "cuppedcoffee",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,9 @@
     "express": "^4.17.1",
     "knex": "^0.19.5",
     "pg": "^7.12.1"
+  },
+  "engines": {
+    "node": "10.x"
   },
   "devDependencies": {}
 }
